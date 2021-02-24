@@ -7,7 +7,6 @@ const colors = [
     "#795548"
 ];
 
-
 const refs = {
   body: document.querySelector("body"),
   start: document.querySelector('button[data-action="start"]'),
@@ -22,7 +21,7 @@ let intervalId;
 
 const changeColor = () => {
   let color = randomIntegerFromInterval(0, colors.length - 1);
-  refs.body.bgColor = colors[color];
+  refs.body.style.background = colors[color];
 }
 
 const startHandler = () => {
