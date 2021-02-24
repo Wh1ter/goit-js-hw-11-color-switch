@@ -7,6 +7,7 @@ const colors = [
     "#795548"
 ];
 
+
 const refs = {
   body: document.querySelector("body"),
   start: document.querySelector('button[data-action="start"]'),
